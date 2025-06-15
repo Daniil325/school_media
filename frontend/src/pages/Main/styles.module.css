@@ -1,0 +1,138 @@
+.hero {
+    padding: 60px 20px;
+}
+.hero h1 {
+    color: #0077b6;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 82px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.hero p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(48, 55, 69, 1);
+}
+
+.hero_container {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.hero_img {
+    max-width: 650px;
+}
+
+.btn_main {
+    background: #0095da;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 24px;
+    font-weight: bold;
+}
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+.paper {
+    padding: 40px;
+    border-radius: 20px;
+    margin: 20px auto;
+    background: url('public/Mask group.png') no-repeat;
+    background-size: cover;
+    max-width: 1500px;
+    margin: auto;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.paper_wrapper {
+    display: flex;
+    padding: 30px;
+}
+
+.paper div p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: 0%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    width: 280px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card img {
+    max-width: 200px;
+}
+
+.card_title {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(0, 122, 172, 1);
+}
+
+.card_text {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(48, 55, 69, 1);
+}
+
+.section_title {
+    color: #0077b6;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.join,
+.register,
+.map {
+    background: #fff;
+    border-radius: 20px;
+    margin: 20px auto;
+    max-width: 1500px;
+    padding: 40px 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+.map_img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    width: 600px;
+    
+}
+
+.join {
+    background: url("Mask group (2).png");
+    max-width: unset;
+}
