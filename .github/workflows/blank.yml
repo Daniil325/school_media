@@ -7,11 +7,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
 
   deploy:
-    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Run command on remote server
