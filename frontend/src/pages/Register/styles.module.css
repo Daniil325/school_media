@@ -1,0 +1,122 @@
+.register_form {
+    background: #eaf8fe;
+    padding: 3rem 1rem;
+}
+
+.register_form .container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.register_form h2 {
+    color: #0077b6;
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.role_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.role {
+    background: #ffffff;
+    border: 2px solid #00a5df;
+    color: #00a5df;
+    border-radius: 30px;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.role.active,
+.role:hover {
+    background: #00a5df;
+    color: white;
+}
+
+.form_box h3 {
+    color: #0077b6;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.grid input {
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.form-box h4 {
+    margin: 1rem 0 0.5rem;
+    font-size: 1rem;
+}
+
+.interests {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.tag {
+    background: #e5f6fb;
+    color: #0c3c60;
+    border: none;
+    border-radius: 20px;
+    padding: 0.4rem 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.tag.selected {
+    background: #00a5df;
+    color: white;
+}
+
+.btn {
+    background: #008ecf;
+    color: white;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+.consent {
+    display: block;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #333;
+}
+
+.consent input {
+    margin-right: 0.5rem;
+}
+
+.consent a {
+    color: #008ecf;
+    text-decoration: underline;
+}
