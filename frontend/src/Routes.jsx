@@ -12,9 +12,11 @@ import { Register } from './pages/Register/Register';
 const AppRoutes = () => {
     return (
         <>
-            <Header />
-            <main className="main">
+            
+            
                 <Router>
+                    <Header />
+                    <main className="main">
                     <Routes>
                         <Route path="/" element={<Main />} />
                         <Route path="/about" element={<AboutPage />} />
@@ -22,8 +24,9 @@ const AppRoutes = () => {
                         <Route path="/mediacenters" element={<Mediacenters />} />
                         <Route path="/register" element={<Register />} />
                     </Routes>
+                     </main>
                 </Router>
-            </main>
+           
             <Footer />
         </>
     );

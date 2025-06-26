@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from './styles.module.css';
+import { Link } from 'react-router-dom';
 
 export const Header = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -24,10 +25,10 @@ export const Header = () => {
             <div className={styles.header__container}>
                 <h1 className={styles.header__title}>АГРЕГАТОР ШКОЛЬНЫХ МЕДИА</h1>
                 <nav className={styles.header__navigation}>
-                    <a href="#">События</a>
-                    <a href="#">Карта Медиацентров</a>
+                    <Link to="/events">События</Link>
+                    <Link to="/mediacenters">Карта Медиацентров</Link>
                     <a href="#">Медиа Алтая</a>
-                    <a href="#">Контакты</a>
+                    <Link to="/about">Контакты</Link>
                 </nav>
             </div>
         </header>

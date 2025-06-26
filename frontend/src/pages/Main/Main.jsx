@@ -1,4 +1,5 @@
 import styles from './styles.module.css';
+import { Link } from "react-router-dom";
 
 export const Main = () => {
     return (
@@ -11,9 +12,9 @@ export const Main = () => {
                             Находи конкурсы, фестивали и мастер-классы по интересам. Фильтруй,
                             сохраняй, участвуй!
                         </p>
-                        <a class={styles.btn_main} href="#">
+                        <Link className={styles.btn_main} to="/register">
                             ЗАРЕГИСТРИРОВАТЬСЯ
-                        </a>
+                        </Link>
                     </div>
 
                     <div>
@@ -98,7 +99,7 @@ export const Main = () => {
                 <p>
                     <img src="schoolgirl-desk-with-laptop-memphis-style 1.png" alt="" />
                 </p>
-                
+
             </section>
 
             <section class={styles.map}>

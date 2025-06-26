@@ -1,4 +1,5 @@
 import styles from "./styles.module.css";
+import { Link } from "react-router-dom";
 
 export const Mediacenters = () => {
     return (
@@ -75,9 +76,9 @@ export const Mediacenters = () => {
 
             <section className="register">
                 <h2 className={styles.section_title}>РЕГИСТРИРУЙСЯ ПРЯМО СЕЙЧАС!</h2>
-                <a className={styles.btn_main} href="#">
+                <Link className={styles.btn_main} to="/register">
                     ЗАРЕГИСТРИРОВАТЬСЯ
-                </a>
+                </Link>
                 <p>
                     <img src="schoolgirl-desk-with-laptop-memphis-style 1.png" alt="" />
                 </p>

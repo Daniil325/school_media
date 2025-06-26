@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
 
 export const Events = () => {
@@ -82,9 +83,9 @@ export const Events = () => {
 
             <section className="register">
                 <h2 className={styles.section_title}>РЕГИСТРИРУЙСЯ ПРЯМО СЕЙЧАС!</h2>
-                <a className={styles.btn_main} href="#">
+                <Link className={styles.btn_main} to="/register">
                     ЗАРЕГИСТРИРОВАТЬСЯ
-                </a>
+                </Link>
                 <p>
                     <img src="schoolgirl-desk-with-laptop-memphis-style 1.png" alt="" />
                 </p>
